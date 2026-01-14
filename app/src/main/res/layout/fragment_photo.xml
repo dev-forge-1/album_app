@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- GRID ẢNH -->
+    <GridView
+        android:id="@+id/gridPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:verticalSpacing="4dp"
+        android:horizontalSpacing="4dp"
+        android:padding="4dp"
+        android:clipToPadding="false"
+        android:layout_above="@id/btnDelete"/>
+
+    <!-- NÚT XÓA -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:text="XÓA ẢNH ĐÃ CHỌN"
+        android:textColor="@android:color/white"
+        android:background="#D32F2F"
+        android:textStyle="bold"/>
+</RelativeLayout>
